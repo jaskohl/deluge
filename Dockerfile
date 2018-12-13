@@ -12,5 +12,3 @@ RUN \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
-
-HEALTHCHECK --interval=5s --timeout=5s --retries=20 CMD ["nc -z localhost 58946 || exit 1"]
