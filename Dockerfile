@@ -4,7 +4,7 @@ FROM linuxserver/deluge:latest
 RUN \
  echo "**** install packages ****" && \
  apt-get update && \
- apt-get install -y netcat && \
+ apt-get install -y iputils-ping && \
  echo "**** cleanup ****" && \
  apt-get --purge autoremove -y && \
  apt-get clean && \
