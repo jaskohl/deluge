@@ -1,4 +1,5 @@
-FROM linuxserver/deluge:latest
+# locking release to 5b398f77-ls22 due to some error with current builds
+FROM linuxserver/deluge:5b398f77-ls22
 
 # install software
 RUN \
