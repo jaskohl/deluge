@@ -5,7 +5,7 @@ FROM linuxserver/deluge:5b398f77-ls22
 RUN \
  echo "**** install packages ****" && \
  apt-get update && \
- apt-get install -y iputils-ping && \
+ apt-get install -y apt-utils iputils-ping && \
  echo "**** cleanup ****" && \
  apt-get --purge autoremove -y && \
  apt-get clean && \
