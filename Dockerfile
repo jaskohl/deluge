@@ -1,5 +1,6 @@
 # locking release to 5b398f77-ls22 due to some error with current builds
-FROM linuxserver/deluge:5b398f77-ls22
+# updating to 2.0.3-2201906121747ubuntu18.04.1-ls51
+FROM linuxserver/deluge:2.0.3-2201906121747ubuntu18.04.1-ls51
 
 # install software
 RUN \
